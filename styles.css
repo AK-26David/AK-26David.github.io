@@ -155,6 +155,7 @@ body {
 /* ACHIEVEMENTS */
 .ach-icon { margin-bottom: .9rem; }
 .ach-icon svg { width: 38px; height: 38px; stroke: var(--cyan); filter: drop-shadow(0 0 10px rgba(0,240,255,.45)); }
+.ach-org { font-size: .82rem; color: var(--cyan); letter-spacing: .5px; margin: .4rem 0 .6rem; opacity: .85; }
 /* SKILLS */
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; }
 .skills-grid h4 { font-family: 'Space Grotesk', sans-serif; color: var(--cyan); letter-spacing: 1px; margin-bottom: .9rem; font-size: .95rem; text-transform: uppercase; }
