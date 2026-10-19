@@ -33,10 +33,11 @@
 <!-- HERO -->
 <header id="hero">
   <div class="hero-inner">
-    <div class="hero-badge reveal">● Open to Summer 2027 internships</div>
+    <div class="terminal-line reveal"><span class="prompt">$</span> whoami</div>
     <h1 class="hero-name"><span class="glitch" data-text="ARNAV KARNIK">ARNAV KARNIK</span></h1>
+    <p class="hero-statement reveal">I teach machines to <em>see</em>, <em>grasp</em>, and <em>imagine</em>.</p>
     <div class="typed-line"><span id="typed"></span><span class="caret">▌</span></div>
-    <p class="hero-sub reveal">MS in Artificial Intelligence @ Northeastern University · Building intelligent systems — from disturbance-aware robotic grasping to 3D diffusion models for cardiac imaging.</p>
+    <p class="hero-sub reveal">MS in Artificial Intelligence at Northeastern — previously BTech in Computer Science (AI &amp; ML) at Manipal. I work where vision, language, and reinforcement learning meet.</p>
     <div class="hero-cta reveal">
       <a href="#projects" class="btn btn-primary">Explore My Work</a>
       <a href="#contact" class="btn btn-ghost">Get In Touch</a>
@@ -59,6 +60,12 @@
   <div class="stat reveal"><span class="stat-num" data-count="867">0</span><span class="stat-label">Neuroimaging Subjects</span></div>
   <div class="stat reveal"><span class="stat-num" data-count="79" data-suffix="%">0</span><span class="stat-label">Grasp Success</span></div>
   <div class="stat reveal"><span class="stat-num" data-count="99" data-prefix="~" data-suffix="%">0</span><span class="stat-label">Disease Detection</span></div>
+</section>
+
+<!-- NOW -->
+<section class="now-strip reveal">
+  <span class="now-label">NOW</span>
+  <p>First-year MS in AI @ Northeastern · Based in Boston · Looking for Summer 2027 ML/AI internships</p>
 </section>
 
 <!-- ABOUT -->
@@ -135,7 +142,15 @@
 <!-- PROJECTS -->
 <section id="projects" class="section">
   <h2 class="section-title reveal"><span class="title-num">03</span> Projects</h2>
-  <div class="cards-grid">
+  <div class="projects-grid">
+    <article class="glass-card project-card featured reveal">
+      <div class="proj-top"><span class="proj-tag">Generative AI · Featured</span><span class="proj-date">Jan 2025 – Apr 2026</span></div>
+      <h3>CardioGen — 3D Latent Diffusion for Cardiac Synthesis</h3>
+      <p>Anatomically-conditioned 3D latent diffusion model for CCTA synthesis — augmented 140 real scans with 200 synthetic cases.</p>
+      <div class="proj-metrics"><div><strong>64.2→71.5%</strong><span>segmentation Dice</span></div><div><strong>69.4→76.8%</strong><span>distal-vessel recall</span></div></div>
+      <div class="proj-tech"><span>PyTorch</span><span>3D VAE</span><span>Latent Diffusion</span><span>MONAI</span></div>
+      <a class="proj-link" href="https://github.com/AsciiHermit/CardioGen" target="_blank" rel="noopener">View on GitHub →</a>
+    </article>
     <article class="glass-card project-card reveal">
       <div class="proj-top"><span class="proj-tag">Computer Vision</span><span class="proj-date">Mar 2026 – Dec 2026</span></div>
       <h3>BMZ-Aware Autoimmune Bullous Disease Detection</h3>
@@ -143,14 +158,6 @@
       <div class="proj-metrics"><div><strong>~99%</strong><span>disease detection</span></div><div><strong>~74%</strong><span>multi-class accuracy</span></div></div>
       <div class="proj-tech"><span>PyTorch</span><span>OpenCV</span><span>Scikit-learn</span></div>
       <a class="proj-link" href="https://github.com/AK-26David/AI-in-DIF-Microscopy" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
-    <article class="glass-card project-card reveal">
-      <div class="proj-top"><span class="proj-tag">Generative AI</span><span class="proj-date">Jan 2025 – Apr 2026</span></div>
-      <h3>CardioGen — 3D Latent Diffusion for Cardiac Synthesis</h3>
-      <p>Anatomically-conditioned 3D latent diffusion model for CCTA synthesis — augmented 140 real scans with 200 synthetic cases.</p>
-      <div class="proj-metrics"><div><strong>64.2→71.5%</strong><span>segmentation Dice</span></div><div><strong>69.4→76.8%</strong><span>distal-vessel recall</span></div></div>
-      <div class="proj-tech"><span>PyTorch</span><span>3D VAE</span><span>Latent Diffusion</span><span>MONAI</span></div>
-      <a class="proj-link" href="https://github.com/AsciiHermit/CardioGen" target="_blank" rel="noopener">View on GitHub →</a>
     </article>
     <article class="glass-card project-card reveal">
       <div class="proj-top"><span class="proj-tag">Pose Estimation</span><span class="proj-date">Jan 2025 – Dec 2025</span></div>
