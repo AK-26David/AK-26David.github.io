@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arnav Karnik — AI/ML Engineer</title>
+<meta name="description" content="Arnav Karnik — Machine Learning Engineer and MS in Artificial Intelligence candidate at Northeastern University. Robotic grasping, medical imaging, multimodal AI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+<canvas id="stars"></canvas>
+<div class="grid-overlay"></div>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav id="nav">
+  <a href="#hero" class="logo">AK<span class="logo-dot">.</span></a>
+  <div class="nav-links">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#research">Research</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="hamburger" id="hamburger"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- HERO -->
+<header id="hero">
+  <div class="hero-inner">
+    <div class="hero-badge reveal">● Available for Summer 2027 Internships</div>
+    <h1 class="hero-name"><span class="glitch" data-text="ARNAV KARNIK">ARNAV KARNIK</span></h1>
+    <div class="typed-line"><span id="typed"></span><span class="caret">▌</span></div>
+    <p class="hero-sub reveal">MS in Artificial Intelligence @ Northeastern University · Building intelligent systems — from disturbance-aware robotic grasping to 3D diffusion models for cardiac imaging.</p>
+    <div class="hero-cta reveal">
+      <a href="#projects" class="btn btn-primary">Explore My Work</a>
+      <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+    </div>
+    <div class="hero-socials reveal">
+      <a href="https://www.linkedin.com/in/arnav-karnik-b2441922b/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></a>
+      <a href="https://github.com/AK-26David" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.42-2.7 5.39-5.26 5.68.41.35.77 1.05.77 2.12v3.15c0 .3.2.67.8.55A11.51 11.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a>
+      <a href="https://scholar.google.com/citations?user=b67U_ZAAAAAJ&hl=en" target="_blank" rel="noopener" aria-label="Google Scholar"><svg viewBox="0 0 24 24"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-2.5a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9zm7.5-16v3.7l-2.5-1.5v-2.2c-2.5-.5-5.5-.8-8.5-.8-1.5 0-3 .1-4.4.3v2.3L1.6 3.8 12 0l12 3.8-4.5 1.7zM12 2.2c2.9 0 5.8.3 8.2.8L12 6 3.8 3C6.2 2.5 9.1 2.2 12 2.2z"/></svg></a>
+      <a href="mailto:karnik.ar@northeastern.edu" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg></a>
+    </div>
+  </div>
+  <a href="#about" class="scroll-hint"><span></span></a>
+</header>
+
+<!-- STATS -->
+<section class="stats-strip">
+  <div class="stat reveal"><span class="stat-num" data-count="2">0</span><span class="stat-label">IEEE Publications</span></div>
+  <div class="stat reveal"><span class="stat-num" data-count="3">0</span><span class="stat-label">Research Projects</span></div>
+  <div class="stat reveal"><span class="stat-num" data-count="3">0</span><span class="stat-label">Internships</span></div>
+  <div class="stat reveal"><span class="stat-num" data-count="867">0</span><span class="stat-label">Neuroimaging Subjects</span></div>
+  <div class="stat reveal"><span class="stat-num" data-count="79" data-suffix="%">0</span><span class="stat-label">Grasp Success</span></div>
+  <div class="stat reveal"><span class="stat-num" data-count="99" data-prefix="~" data-suffix="%">0</span><span class="stat-label">Disease Detection</span></div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <h2 class="section-title reveal"><span class="title-num">01</span> About Me</h2>
+  <div class="about-grid">
+    <div class="glass-card reveal">
+      <p class="about-text">I'm a <strong>MS in Artificial Intelligence</strong> candidate at <strong>Northeastern University</strong> (Class of 2028), previously a BTech in Computer Science (AI &amp; ML) with a Computer Vision minor from Manipal Institute of Technology.</p>
+      <p class="about-text">My work lives at the intersection of <strong>vision, language, and reinforcement learning</strong> — multimodal AI, vision-language models, and language-grounded robotics. I build things that ship: disturbance-aware grasping policies deployed on real hardware, diffusion models that improve clinical segmentation, and detection systems running at ~99% accuracy.</p>
+      <div class="about-meta">
+        <div><span class="meta-k">Location</span><span class="meta-v">Boston, MA</span></div>
+        <div><span class="meta-k">Citizenship</span><span class="meta-v">U.S. Citizen</span></div>
+        <div><span class="meta-k">Focus</span><span class="meta-v">Multimodal AI · NLP · Vision · RL</span></div>
+      </div>
+    </div>
+    <div class="glass-card reveal">
+      <h3>Education</h3>
+      <div class="edu-item">
+        <div class="edu-head"><strong>Northeastern University</strong><span>Boston, MA</span></div>
+        <div class="edu-sub">MS — Artificial Intelligence · <em>Sep 2026 – May 2028</em></div>
+        <div class="edu-detail">Concentration in Machine Learning</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-head"><strong>Manipal Institute of Technology</strong><span>Manipal, India</span></div>
+        <div class="edu-sub">BTech — Computer Science (AI &amp; ML) · <em>Sep 2022 – Jul 2026</em></div>
+        <div class="edu-detail">Minor in Computer Vision</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <h2 class="section-title reveal"><span class="title-num">02</span> Experience</h2>
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="glass-card tl-card">
+        <div class="tl-head"><h3>AI &amp; Robotics Intern</h3><span class="tl-date">Jan 2026 – Jun 2026</span></div>
+        <div class="tl-org">IIT Jodhpur · Jodhpur, India</div>
+        <ul>
+          <li>Developed a <strong>PPO-based disturbance-aware grasping framework</strong> — 79% grasp success, 0.498 IoU, 18.16° angle error on Jacquard</li>
+          <li>Built a 10-dimensional state representation for grasp confidence, uncertainty, motion &amp; stability across 75 frames</li>
+          <li>Deployed a 5-action PPO policy on <strong>Raspberry Pi–Arduino hardware</strong> — 100% success on policy-approved attempts</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="glass-card tl-card">
+        <div class="tl-head"><h3>Machine Learning Intern</h3><span class="tl-date">May 2025 – Jul 2025</span></div>
+        <div class="tl-org">iHub Data, IIIT Hyderabad · Hyderabad, India</div>
+        <ul>
+          <li>Built an ML pipeline for <strong>ASD classification</strong> on multimodal neuroimaging data from <strong>867 ABIDE I subjects</strong></li>
+          <li>Engineered 400-dimensional SDI features via graph Laplacian decomposition over the Schaefer-400 atlas</li>
+          <li>Achieved 64.37% test accuracy with FC-informed SDI features + RBF-SVM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <div class="tl-dot"></div>
+      <div class="glass-card tl-card">
+        <div class="tl-head"><h3>Digital &amp; Analytics Intern</h3><span class="tl-date">May 2024 – Jul 2024</span></div>
+        <div class="tl-org">UPL Ltd. · Remote</div>
+        <ul>
+          <li>Built scalable <strong>Selenium pipelines</strong> scraping agricultural product data across <strong>44 country websites</strong></li>
+          <li>Automated extraction of 4 product attributes with BeautifulSoup/Selenium</li>
+          <li>Automated product classification &amp; multilingual normalization with <strong>NLP + Google Translate API</strong></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <h2 class="section-title reveal"><span class="title-num">03</span> Projects</h2>
+  <div class="cards-grid">
+    <article class="glass-card project-card reveal">
+      <div class="proj-top"><span class="proj-tag">Computer Vision</span><span class="proj-date">Mar 2026 – Dec 2026</span></div>
+      <h3>BMZ-Aware Autoimmune Bullous Disease Detection</h3>
+      <p>End-to-end vision pipeline with spatial encoding, attention-based learning &amp; prototype classification on imbalanced DIF microscopy images.</p>
+      <div class="proj-metrics"><div><strong>~99%</strong><span>disease detection</span></div><div><strong>~74%</strong><span>multi-class accuracy</span></div></div>
+      <div class="proj-tech"><span>PyTorch</span><span>OpenCV</span><span>Scikit-learn</span></div>
+      <a class="proj-link" href="https://github.com/AK-26David/AI-in-DIF-Microscopy" target="_blank" rel="noopener">View on GitHub →</a>
+    </article>
+    <article class="glass-card project-card reveal">
+      <div class="proj-top"><span class="proj-tag">Generative AI</span><span class="proj-date">Jan 2025 – Apr 2026</span></div>
+      <h3>CardioGen — 3D Latent Diffusion for Cardiac Synthesis</h3>
+      <p>Anatomically-conditioned 3D latent diffusion model for CCTA synthesis — augmented 140 real scans with 200 synthetic cases.</p>
+      <div class="proj-metrics"><div><strong>64.2→71.5%</strong><span>segmentation Dice</span></div><div><strong>69.4→76.8%</strong><span>distal-vessel recall</span></div></div>
+      <div class="proj-tech"><span>PyTorch</span><span>3D VAE</span><span>Latent Diffusion</span><span>MONAI</span></div>
+      <a class="proj-link" href="https://github.com/AsciiHermit/CardioGen" target="_blank" rel="noopener">View on GitHub →</a>
+    </article>
+    <article class="glass-card project-card reveal">
+      <div class="proj-top"><span class="proj-tag">Pose Estimation</span><span class="proj-date">Jan 2025 – Dec 2025</span></div>
+      <h3>Context-Aware Human Pose Estimation</h3>
+      <p>Heatmap-based pose estimation with global context modeling &amp; learnable pose embeddings for exercise analysis.</p>
+      <div class="proj-metrics"><div><strong>0.45→0.62</strong><span>F1 on COCO</span></div><div><strong>96%</strong><span>precision · 682 frames</span></div></div>
+      <div class="proj-tech"><span>PyTorch</span><span>HRNet</span><span>CNNs</span><span>Heatmap Regression</span></div>
+      <a class="proj-link" href="https://github.com/AK-26David/Context-Aware-Human-Pose-Estimation-for-Exercise-Analysis" target="_blank" rel="noopener">View on GitHub →</a>
+    </article>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research" class="section">
+  <h2 class="section-title reveal"><span class="title-num">04</span> Research &amp; Publications</h2>
+  <div class="cards-grid two">
+    <article class="glass-card reveal">
+      <div class="proj-top"><span class="proj-tag">ICMLAS 2025</span><span class="proj-date">Bangkok, Thailand</span></div>
+      <h3>Skin Lesion Classification Using Feature Extraction &amp; Ensemble ML</h3>
+      <p>Feature-engineering + ensemble framework (SVM, MLP, Random Forest) for benign vs. malignant lesion classification — <strong>80% accuracy</strong> as an interpretable, compute-efficient alternative to deep learning.</p>
+      <a class="proj-link" href="https://ieeexplore.ieee.org/abstract/document/10968607" target="_blank" rel="noopener">Read Paper →</a>
+    </article>
+    <article class="glass-card reveal">
+      <div class="proj-top"><span class="proj-tag">IEEE Access</span><span class="proj-date">Journal</span></div>
+      <h3>Multi-Scale Venation Pattern Analysis for Medicinal Plant Recognition</h3>
+      <p>Dual-stream CNN (RGB + vein maps) with Modified ResNet-50 — <strong>0.75 macro F1</strong> with edge-efficient deployment.</p>
+      <a class="proj-link" href="https://ieeexplore.ieee.org/abstract/document/11080426" target="_blank" rel="noopener">Read Paper →</a>
+    </article>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section id="achievements" class="section">
+  <h2 class="section-title reveal"><span class="title-num">05</span> Achievements</h2>
+  <div class="cards-grid three">
+    <article class="glass-card achievement-card reveal">
+      <div class="ach-icon">✈</div>
+      <h3>Shravana Kumar Travel Grant 2025</h3>
+      <p>Awarded for the paper <em>"Skin Lesion Classification Using Feature Extraction and Ensemble Machine Learning Techniques"</em> presented at ICMLAS 2025 — instituted by Mr. &amp; Mrs. Dr. N. Udupa, presented by Associate Dean Dr. P. C. Siddalingaswamy.</p>
+    </article>
+    <article class="glass-card achievement-card reveal">
+      <div class="ach-icon">🏆</div>
+      <h3>Best Paper Presentation — WCMRI 2025</h3>
+      <p>Winner at the 4th World Conference on Multidisciplinary Research &amp; Innovation (virtual, Jul 17–18, 2025) for <em>"Structural Vein Feature Learning for Medicinal Plants using Dual-Path CNN."</em></p>
+    </article>
+    <article class="glass-card achievement-card reveal">
+      <div class="ach-icon">💡</div>
+      <h3>Co-Inventor — Invention Disclosure</h3>
+      <p><em>"System and Method for Assisting and Monitoring of Rehabilitation Exercises"</em> — invention disclosure filed with MAHE, linked to pose-estimation research for exercise analysis.</p>
+    </article>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <h2 class="section-title reveal"><span class="title-num">06</span> Skills</h2>
+  <div class="skills-grid">
+    <div class="glass-card reveal"><h4>Languages</h4><div class="pills"><span>Python</span><span>C</span><span>C++</span><span>Java</span><span>SQL</span></div></div>
+    <div class="glass-card reveal"><h4>ML &amp; AI</h4><div class="pills"><span>PyTorch</span><span>TensorFlow</span><span>Scikit-learn</span><span>Transformers</span><span>Diffusion Models</span><span>Reinforcement Learning</span><span>NLP</span><span>Generative AI</span></div></div>
+    <div class="glass-card reveal"><h4>Data &amp; Vision</h4><div class="pills"><span>NumPy</span><span>Pandas</span><span>OpenCV</span><span>Matplotlib</span><span>MediaPipe</span></div></div>
+    <div class="glass-card reveal"><h4>Big Data</h4><div class="pills"><span>PySpark</span><span>Apache Spark</span><span>Kafka</span><span>MySQL</span><span>MongoDB</span></div></div>
+    <div class="glass-card reveal"><h4>Web</h4><div class="pills"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>Django</span></div></div>
+    <div class="glass-card reveal"><h4>Platforms</h4><div class="pills"><span>Linux</span><span>CUDA</span><span>Jetson Nano</span><span>Arduino</span><span>Raspberry Pi</span><span>Git</span></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2 class="section-title reveal"><span class="title-num">07</span> Contact</h2>
+  <div class="glass-card contact-card reveal">
+    <h3>Let's build something intelligent.</h3>
+    <p>Open to Summer 2027 internships in ML/AI — and always happy to talk vision, language, and robots.</p>
+    <div class="contact-links">
+      <a href="mailto:karnik.ar@northeastern.edu" class="btn btn-primary">karnik.ar@northeastern.edu</a>
+      <a href="https://www.linkedin.com/in/arnav-karnik-b2441922b/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/AK-26David" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+    </div>
+    <div class="contact-phone">(617) 505-8882 · Boston, MA · U.S. Citizen</div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Arnav Karnik · Crafted with neural precision</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
