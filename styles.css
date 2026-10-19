@@ -141,7 +141,8 @@ body {
 .proj-link { color: var(--cyan); text-decoration: none; font-weight: 600; font-size: .92rem; letter-spacing: .5px; }
 .proj-link:hover { text-shadow: 0 0 12px var(--cyan); }
 /* ACHIEVEMENTS */
-.ach-icon { font-size: 2.2rem; margin-bottom: .8rem; filter: drop-shadow(0 0 12px rgba(0,240,255,.5)); }
+.ach-icon { margin-bottom: .9rem; }
+.ach-icon svg { width: 38px; height: 38px; stroke: var(--cyan); filter: drop-shadow(0 0 10px rgba(0,240,255,.45)); }
 /* SKILLS */
 .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.4rem; }
 .skills-grid h4 { font-family: 'Space Grotesk', sans-serif; color: var(--cyan); letter-spacing: 1px; margin-bottom: .9rem; font-size: .95rem; text-transform: uppercase; }
